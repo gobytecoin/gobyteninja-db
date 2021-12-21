@@ -1,19 +1,19 @@
 --
--- This file is part of Dash Ninja.
--- https://github.com/elbereth/dashninja-db
+-- This file is part of GoByte Ninja.
+-- https://github.com/gobytecoin/gobyteninja-db
 --
--- Dash Ninja is free software: you can redistribute it and/or modify
+-- GoByte Ninja is free software: you can redistribute it and/or modify
 -- it under the terms of the GNU General Public License as published by
 -- the Free Software Foundation, either version 3 of the License, or
 -- (at your option) any later version.
 --
--- Dash Ninja is distributed in the hope that it will be useful,
+-- GoByte Ninja is distributed in the hope that it will be useful,
 -- but WITHOUT ANY WARRANTY; without even the implied warranty of
 -- MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 -- GNU General Public License for more details.
 --
 -- You should have received a copy of the GNU General Public License
--- along with Foobar.  If not, see <http://www.gnu.org/licenses/>.
+-- along with GoByte Ninja.  If not, see <http://www.gnu.org/licenses/>.
 --
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
@@ -32,7 +32,10 @@
 
 LOCK TABLES `cmd_portcheck_config` WRITE;
 /*!40000 ALTER TABLE `cmd_portcheck_config` DISABLE KEYS */;
-INSERT INTO `cmd_portcheck_config` VALUES (0,160101,'0.16.1.1',70218,0xBF0C6BBD),(1,160101,'0.16.1.1',70218,0xCEE2CAFF);
+INSERT INTO `cmd_portcheck_config` VALUES (0,0120103,'0.12.1.3',70208,0x1AB2C3D4),(1,0120103,'0.12.1.3',70208,0xD12BB37A);
+INSERT INTO `cmd_portcheck_config` VALUES (0,0160101,'0.16.1.1',70209,0x1AB2C3D4),(1,0160101,'0.16.1.1',70209,0xD12BB37A);
+INSERT INTO `cmd_portcheck_config` VALUES (0,0160201,'0.16.2.1',70210,0x1AB2C3D4),(1,0160201,'0.16.2.1',70210,0xD12BB37A);
+
 /*!40000 ALTER TABLE `cmd_portcheck_config` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;

@@ -1,19 +1,19 @@
 --
--- This file is part of Dash Ninja.
--- https://github.com/elbereth/dashninja-db
+-- This file is part of GoByte Ninja.
+-- https://github.com/gobytecoin/gobyteninja-db
 --
--- Dash Ninja is free software: you can redistribute it and/or modify
+-- GoByte Ninja is free software: you can redistribute it and/or modify
 -- it under the terms of the GNU General Public License as published by
 -- the Free Software Foundation, either version 3 of the License, or
 -- (at your option) any later version.
 --
--- Dash Ninja is distributed in the hope that it will be useful,
+-- GoByte Ninja is distributed in the hope that it will be useful,
 -- but WITHOUT ANY WARRANTY; without even the implied warranty of
 -- MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 -- GNU General Public License for more details.
 --
 -- You should have received a copy of the GNU General Public License
--- along with Dash Ninja.  If not, see <http://www.gnu.org/licenses/>.
+-- along with GoByte Ninja.  If not, see <http://www.gnu.org/licenses/>.
 --
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
@@ -62,13 +62,13 @@ CREATE TABLE `cmd_budget` (
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
--- Table structure for table `cmd_budget_dashwhale_comments`
+-- Table structure for table `cmd_budget_gobytewhale_comments`
 --
 
-DROP TABLE IF EXISTS `cmd_budget_dashwhale_comments`;
+DROP TABLE IF EXISTS `cmd_budget_gobytewhale_comments`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
-CREATE TABLE `cmd_budget_dashwhale_comments` (
+CREATE TABLE `cmd_budget_gobytewhale_comments` (
   `BudgetHash` varchar(64) CHARACTER SET ascii NOT NULL,
   `CommentHash` varchar(32) CHARACTER SET ascii NOT NULL,
   `CommentUsername` varchar(64) CHARACTER SET ascii NOT NULL,

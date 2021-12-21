@@ -1,19 +1,19 @@
 --
--- This file is part of Dash Ninja.
--- https://github.com/elbereth/dashninja-db
+-- This file is part of GoByte Ninja.
+-- https://github.com/gobytecoin/gobyteninja-db
 --
--- Dash Ninja is free software: you can redistribute it and/or modify
+-- GoByte Ninja is free software: you can redistribute it and/or modify
 -- it under the terms of the GNU General Public License as published by
 -- the Free Software Foundation, either version 3 of the License, or
 -- (at your option) any later version.
 --
--- Dash Ninja is distributed in the hope that it will be useful,
+-- GoByte Ninja is distributed in the hope that it will be useful,
 -- but WITHOUT ANY WARRANTY; without even the implied warranty of
 -- MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 -- GNU General Public License for more details.
 --
 -- You should have received a copy of the GNU General Public License
--- along with Dash Ninja.  If not, see <http://www.gnu.org/licenses/>.
+-- along with GoByte Ninja.  If not, see <http://www.gnu.org/licenses/>.
 --
 
 -- Execute this MySQL script to update your Database from v4 to v5
@@ -24,10 +24,10 @@
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Table structure for table `cmd_budget_dashwhale_comments`
+-- Table structure for table `cmd_budget_gobytewhale_comments`
 --
 
-CREATE TABLE `cmd_budget_dashwhale_comments` (
+CREATE TABLE `cmd_budget_gobytewhale_comments` (
   `BudgetHash` varchar(64) CHARACTER SET ascii NOT NULL,
   `CommentHash` varchar(32) CHARACTER SET ascii NOT NULL,
   `CommentUsername` varchar(64) CHARACTER SET ascii NOT NULL,
@@ -41,10 +41,10 @@ CREATE TABLE `cmd_budget_dashwhale_comments` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_bin;
 
 --
--- Indexes for table `cmd_budget_dashwhale_comments`
+-- Indexes for table `cmd_budget_gobytewhale_comments`
 --
 
-ALTER TABLE `cmd_budget_dashwhale_comments`
+ALTER TABLE `cmd_budget_gobytewhale_comments`
   ADD PRIMARY KEY (`BudgetHash`,`CommentHash`),
   ADD KEY `CommentOrder` (`CommentOrder`);
 
