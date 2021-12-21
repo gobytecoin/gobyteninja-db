@@ -1,14 +1,14 @@
-# Dash Ninja Database (dashninja-db)
-By Alexandre (aka elbereth) Devilliers
+# GoByte Ninja Database (gobyteninja-db)
+forked from dashninja-db By Alexandre (aka elbereth) Devilliers
 
-Check the running live website at https://dashninja.pl
+Check the running live website at https://masternodes.gobyte.network
 
-This is part of what makes the Dash Ninja monitoring application.
+This is part of what makes the GoByte Ninja monitoring application.
 It contains:
 - Database structure (MySQL)
 
 ## Requirement:
-* You will need a running MySQL with a Dash Ninja database and user.
+* You will need a running MySQL with a GoByte Ninja database and user.
 
 ## Optional:
 * A user for the public API with only SELECT ability.
